@@ -1,0 +1,12 @@
+{
+  "name": "smart-expense-hub",
+  "version": "1.0.0",
+  "description": "Smart Expense Tracker & Automated Due Date Notifier (PERN Stack)",
+  "scripts": {
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "start": "node server/server.js",
+    "server": "npm --prefix server run start",
+    "client": "npm --prefix client run dev",
+    "dev": "npm --prefix client run dev"
+  }
+}
